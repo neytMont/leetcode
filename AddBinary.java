@@ -23,7 +23,7 @@ public class AddBinary {
 			}
 			sum += carry;
 			
-			carry = (sum >= 2) ? 1:2;
+			carry = (sum >= 2) ? 1:0;
 			
 			strBld.insert(0, (char)((sum % 2) + '0'));
 			n1--;
